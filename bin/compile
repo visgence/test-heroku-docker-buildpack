@@ -19,3 +19,4 @@ export_env_dir() {
 echo "------>compiling"
 echo "env" | indent
 /usr/bin/env | indent
+docker -v
