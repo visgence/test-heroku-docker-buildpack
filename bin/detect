@@ -1,3 +1,8 @@
 #!/bin/sh
 echo "test docker buildpack"
+BUILD_DIR=$1
+echo "BUILD_DIR: $BUILD_DIR"
+
+# TODO: assert that we have some dockerfiles
+
 return 0
