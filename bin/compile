@@ -22,3 +22,5 @@ echo "env" | indent
 
 # install docker
 dpkg --version
+curl - "$2/docker-ce-17.06-ubuntu_amd64.deb" https://download.docker.com/linux/ubuntu/dists/xenial/pool/stable/amd64/docker-ce_17.06.0~ce-0~ubuntu_amd64.deb
+dpkg -i "$2/docker-ce-17.06-ubuntu_amd64.deb"
